@@ -1,0 +1,119 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "name": "Primary Blue",
+          "slug": "primary-blue",
+          "color": "#00335B"
+        },
+        {
+            "name": "Primary Green",
+            "slug": "primary-green",
+            "color": "#008751"
+        },
+        {
+            "name": "Gold",
+            "slug": "primary-gold",
+            "color": "#007CBA"
+        },
+        {
+            "name": "Black",
+            "slug": "primary-black",
+            "color": "#000000"
+        },
+        {
+          "name": "Light Blue",
+          "slug": "secondary-lblue",
+          "color": "#6c757d"
+        },
+        {
+          "name": "Light Green",
+          "slug": "secondary-lgreen",
+          "color": "#00CE7C"
+        },
+        {
+          "name": "Yellow",
+          "slug": "secondary-yellow",
+          "color": "#FEDB00"
+        },
+        {
+          "name": "Chartreuse",
+          "slug": "secondary-chartreuse",
+          "color": "#D0DF00"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "name": "Trade Gothic",
+          "slug": "trade-Gothic",
+          "fontFamily": "\"Trade Gothic\", Arial, sans-serif"
+        },
+        {
+          "name": "Gotham",
+          "slug": "gotham",
+          "fontFamily": "Gotham, Arial, sans-serif"
+        },
+        {
+          "name": "Arial",
+          "slug": "arial",
+          "fontFamily": "Arial, Helvetica, sans-serif"
+        }
+      ],
+      "fontSizes": [
+        {
+          "name": "Small",
+          "slug": "small",
+          "size": "0.875rem"
+        },
+        {
+          "name": "Normal",
+          "slug": "normal",
+          "size": "1rem"
+        },
+        {
+          "name": "Large",
+          "slug": "large",
+          "size": "1.5rem"
+        },
+        {
+          "name": "Extra Large",
+          "slug": "x-large",
+          "size": "2rem"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "800px",
+      "wideSize": "1200px"
+    }
+  },
+  "styles": {
+    "color": {
+      "text": "#212529",
+      "background": "#ffffff"
+    },
+    "typography": {
+      "fontFamily": "system",
+      "fontSize": "1rem",
+      "lineHeight": "1.6"
+    },
+    "elements": {
+      "link": {
+        "color": {
+          "text": "#0d6efd"
+        }
+      },
+      "heading": {
+        "typography": {
+          "fontFamily": "system",
+          "fontWeight": "600"
+        }
+      }
+    }
+  }
+}
