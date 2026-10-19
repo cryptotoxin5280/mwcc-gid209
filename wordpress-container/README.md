@@ -2,7 +2,7 @@
 
 The purpose of this directory is to assist students with setting up a local development instance of WordPress and its database in a set of microservice containers.
 
-## Install Dependencies
+## STEP 1: Install Dependencies
 
 _These instructions assume that Apple macOS users already have [Homebrew](https://brew.sh/) installed._
 
@@ -36,13 +36,13 @@ podman machine start
 winget install --id RedHat.Podman --exact
 ```
 
-## Clone this Git Repository.
+## STEP 2: Clone this Git Repository.
 
 ```bash
 git clone https://github.com/cryptotoxin5280/mwcc-gid209.git
 ```
 
-## Pull Down the WordPress Service Containers
+## STEP 3: Pull Down the WordPress Service Containers
 
 1. From the command-line, navigate to the `MWCC-GID209/wordpress-container` directory of this cloned repo.
 
@@ -52,7 +52,7 @@ git clone https://github.com/cryptotoxin5280/mwcc-gid209.git
 podman compose up -d
 ```
 
-## Access WordPress
+## STEP 4: Access WordPress
 
 1\. Once the containers are running, open a web browser and navigate to:
 
@@ -75,7 +75,7 @@ Set the following fields, check the `Confirm use of weak password` box, and clic
 
 You should now be logged into your local development WordPress site.
 
-## 4. Stop the Containers
+## STEP 5: Stop the Containers
 
 The WordPress containers can be stopped at any time via the following command:
 
@@ -83,9 +83,9 @@ The WordPress containers can be stopped at any time via the following command:
 podman compose down
 ```
 
-## 5. Starting WordPress
+## STEP 6: Starting WordPress
 
-After the intial container deployment, WordPress can be started up again by navigating to MWCC-GID209/wordpress-container and executing the following command:
+After the initial container deployment, WordPress can be started up again by navigating to MWCC-GID209/wordpress-container and executing the following command:
 
 ```bash
 podman compose up -d
