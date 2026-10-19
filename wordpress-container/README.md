@@ -36,9 +36,15 @@ podman machine start
 winget install --id RedHat.Podman --exact
 ```
 
+## Clone this Git Repository.
+
+```bash
+git clone https://github.com/cryptotoxin5280/mwcc-gid209.git
+```
+
 ## Pull Down the WordPress Service Containers
 
-1. From the command-line, navigate to the `wordpress-container` directory of this cloned repo.
+1. From the command-line, navigate to the `MWCC-GID209/wordpress-container` directory of this cloned repo.
 
 2. Start the containers.
 
